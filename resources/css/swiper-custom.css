@@ -1,0 +1,19 @@
+.swiper-container {
+    mask-image: linear-gradient(to right, transparent 0%, white 20% 80%, transparent 100%);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+ color: black;
+ z-index: 99 !important;
+}
+
+.swiper {
+    height: 650px;
+}
+
+@media only screen and (max-width: 766px) {
+    .swiper-container {
+        mask-image: none;
+    }
+  }

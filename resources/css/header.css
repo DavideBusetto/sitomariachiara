@@ -1,0 +1,12 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/img/header_home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-style: dashed;
+    border-width: 5px;
+    border-color: #707070;
+
+  }
