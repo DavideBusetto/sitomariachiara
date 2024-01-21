@@ -1,7 +1,7 @@
-<div class="container-fluid bg-footer">
+<div class="container-fluid bg-footer border-top-dashed">
   <div class="container">
 
-    <footer class="row row-cols-5 py-5  border-top align-items-center">
+    <footer class="row row-cols-5 py-5 align-items-center">
       <div class="col-12 col-md-4">
         <a style="width:80px" href="#"><img class="w-75 mx-auto d-block" src="media/Logo/Logo_Combinato/Export_1080x540.png" alt=""></a>
       </div>

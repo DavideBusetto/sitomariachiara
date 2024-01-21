@@ -25,5 +25,6 @@
         <h2>Non ci sono articoli</h2>
     @endforelse
     </div>
+
 </section>
 

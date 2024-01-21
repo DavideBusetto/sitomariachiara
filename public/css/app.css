@@ -11336,6 +11336,12 @@ textarea.form-control-lg {
     border-color: rgba(123, 123, 123, 0.55);
   }
 
+  .border-top-dashed {
+    border-top-style: dashed;
+    border-width: 4px;
+    border-color: rgba(123, 123, 123, 0.55);
+  }
+
   .youtube-channel-btn {
     color:#707070;
     transition-duration: 300ms;
@@ -11364,6 +11370,13 @@ textarea.form-control-lg {
     height:650px;
   }
 
+  .bg-article-index {
+    background:url('/media/Header/Articoli_Header.jpg');
+    background-size:cover;
+    background-position:100% center;
+    background-repeat: no-repeat;
+  }
+
   
   @media only screen and (max-width: 766px) {
     .container-video {
@@ -11372,6 +11385,14 @@ textarea.form-control-lg {
     .iframe-hight {
         height:400px;
       }
+
+      .bg-article-index {
+        background:url('/media/Header/Articoli_Header_Responsive.jpg');
+        background-size:cover;
+        background-position:100% center;
+        background-repeat: no-repeat;
+      }
+    
     
 
   }

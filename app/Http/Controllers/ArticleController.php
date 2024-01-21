@@ -16,6 +16,7 @@ class ArticleController extends Controller
     {
         $featuredArticle = Article::whereInEvidence(true)->where('published', true)->orderBy('created_at', 'desc')->first();
         $articles = [];
+        
         if($featuredArticle){
             $articles = Article::where('published', true)->orderBy('created_at', 'desc')->get()->except($featuredArticle->id);
         }
