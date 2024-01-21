@@ -11299,7 +11299,7 @@ textarea.form-control-lg {
     height: 100vh;
     min-height: 500px;
     background-image: url('/media/Header/Home_Header.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -11360,11 +11360,19 @@ textarea.form-control-lg {
 
   }
 
+  .iframe-hight {
+    height:650px;
+  }
+
   
   @media only screen and (max-width: 766px) {
     .container-video {
         width:100%;
     }
+    .iframe-hight {
+        height:400px;
+      }
+    
 
   }
 nav {
