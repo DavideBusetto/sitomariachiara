@@ -11299,7 +11299,7 @@ textarea.form-control-lg {
     height: 100vh;
     min-height: 500px;
     background-image: url('/media/Header/Home_Header.jpg');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -11314,6 +11314,7 @@ textarea.form-control-lg {
 .contact-form input,
 .contact-form input:active,
 .contact-form input:focus,
+.contact-form textarea,
 .contact-form textarea:active,
 .contact-form textarea:focus{
     background-color: rgba(247, 205, 151, 0.411) !important;
@@ -11391,6 +11392,25 @@ textarea.form-control-lg {
    
   }
 
+  .bg-contacts {
+    background:url('/media/Header/Contatti_Header.jpg');
+    background-size:cover;
+    background-position:100% center;
+    background-repeat: no-repeat;
+  }
+
+  .submit-btn-form {
+    background-color:#707070;
+    transition-duration: 300ms;
+    color:#FBEBD6;
+  }
+
+  .submit-btn-form:hover {
+    background-color:#444444;
+    color:#FBEBD6;
+
+  }
+
   
   @media only screen and (max-width: 766px) {
     .container-video {
@@ -11411,6 +11431,11 @@ textarea.form-control-lg {
         background-size:cover;
         background-position:100% center;
         background-repeat: no-repeat;
+      }
+
+      .bg-contacts {
+        background:url('/media/Header/Contatti_Header_Responsive.jpg');
+
       }
     
     
