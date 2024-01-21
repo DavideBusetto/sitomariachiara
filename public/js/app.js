@@ -5335,9 +5335,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 window.onload = function () {
-  var swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__.Swiper('.mySwiperClass', {
+  var swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__.Swiper(".mySwiperClass", {
     spaceBetween: 15,
     slidesPerView: 3,
+    loop: true,
     modules: [swiper__WEBPACK_IMPORTED_MODULE_0__.Pagination, swiper__WEBPACK_IMPORTED_MODULE_0__.Navigation],
     navigation: {
       nextEl: ".swiper-button-next",
@@ -5345,11 +5346,12 @@ window.onload = function () {
     },
     pagination: {
       el: ".swiper-pagination",
-      clickable: true
+      clickable: true,
+      dynamicBullets: true
     },
     breakpoints: {
       // when window width is >= 640px
-      350: {
+      319: {
         slidesPerView: 1
       },
       // when window width is >= 768px

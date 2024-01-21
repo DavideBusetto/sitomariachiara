@@ -1,6 +1,6 @@
 <x-layout>
     <x-header/>
-    <div class="container my-5">
+    <div class="container container-fluid my-5">
         <div class="row text-left">
             <div class="col-12">
                 <h1>Articoli in evidenza</h1>
@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    <div class="container-fluid my-5">
+    <div class="container-fluid mt-5 border-bottom-dashed" >
         <div class="row">
             <div class="col-12 swiper-container">
                 <div class="swiper mySwiperClass">
@@ -35,23 +35,31 @@
 
 
     @if($video)
-    <section class="container my-5 ">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="h1">Video in evidenza</h2>
+    <section class="container-fluid py-5 border-bottom-dashed bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h1">Video in evidenza</h2>
+                    <div class="border-custom-big">
+    
+                </div>
+                <div class="col-12 text-center my-5">
+                    <x-video-section url="{{ $video->url }}"/>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <a class="h5 youtube-channel-btn bg-white fw-bold shadow text-decoration-none px-3 py-2 rounded-pill" href="https://www.youtube.com" target="blank">Vai sul Canale</a>
+                </div>
             </div>
-            <div class="col-12 text-center my-5">
-                <x-video-section url="{{ $video->url }}"/>
-            </div>
+
         </div>
     </section>
     @endif
 
 
-    <section class="container my-5 ">
+    {{-- <section class="container my-5 ">
         <div class="row">
             <div class="col-12">
-                <h1>Gli utlimi Lavori</h1>
+                <h1>Gli ultimi Lavori</h1>
             </div>
         </div>
     </section>
@@ -84,6 +92,6 @@
           </div>
           @endforeach
         </div>
-    </section>
+    </section> --}}
 
 </x-layout>

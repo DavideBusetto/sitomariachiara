@@ -11298,14 +11298,18 @@ textarea.form-control-lg {
 .masthead {
     height: 100vh;
     min-height: 500px;
-    background-image: url('/img/header_home.jpg');
+    background-image: url('/media/Header/Home_Header.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-bottom-style: dashed;
-    border-width: 5px;
-    border-color: #707070;
+  }
 
+
+  @media screen and (max-width: 600px) {
+    .masthead {
+    background-image: url('/media/Header/Home_Header_Responsive.jpg');
+
+    }
   }
 .contact-form input,
 .contact-form input:active,
@@ -11320,6 +11324,52 @@ textarea.form-control-lg {
 * {
     font-family: 'Montserrat', sans-serif;
     color: #707070;
+}
+
+.bg-white {
+    background-color:#FFFEFC;
+}
+
+.border-bottom-dashed {
+    border-bottom-style: dashed;
+    border-width: 4px;
+    border-color: rgba(123, 123, 123, 0.55);
+  }
+
+  .youtube-channel-btn {
+    color:#707070;
+    transition-duration: 300ms;
+  }
+
+  .youtube-channel-btn:hover {
+    transform:scale(1.2);
+    color:#707070;
+  }
+
+  .container-video {
+    width:100%;
+  }
+
+  .bg-light {
+    background-color: #FFFAF8 !important ;
+  }
+
+  .bg-footer {
+    background: url('/media/Footer/Footer.jpg');
+    background-size: cover;
+
+  }
+
+  
+  @media only screen and (max-width: 766px) {
+    .container-video {
+        width:100%;
+    }
+
+  }
+nav {
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
 }
 .nav-link::after {
     content: '';
@@ -11375,6 +11425,26 @@ ul > li{
     color: #BDBDBD;
 }
 
+.article-btn{
+    width:35px;
+    height:35px;
+    background-color:#ffcccb99 ;
+    transition:200ms;
+    border-radius:50%;
+    position:absolute;
+    right:15px;
+    bottom:15px;
+}
+
+.article-btn:hover {
+    transform:scale(1.2);
+}
+
+
+
+:root {
+    --swiper-theme-color: #707070;
+}
 
 .swiper-container {
     -webkit-mask-image: linear-gradient(to right, transparent 0%, white 20% 80%, transparent 100%);
@@ -11391,12 +11461,19 @@ ul > li{
     height: 650px;
 }
 
+.swiper-pagination {
+    position:absolute !Important;
+    bottom:90px !Important;
+}
+
 @media only screen and (max-width: 766px) {
     .swiper-container {
         -webkit-mask-image: none;
                 mask-image: none;
     }
+
   }
-.bg-white {
-    background-color:#FFFEFC;
-}
+
+
+
+

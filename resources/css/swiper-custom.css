@@ -1,3 +1,7 @@
+:root {
+    --swiper-theme-color: #707070;
+}
+
 .swiper-container {
     mask-image: linear-gradient(to right, transparent 0%, white 20% 80%, transparent 100%);
 }
@@ -12,8 +16,14 @@
     height: 650px;
 }
 
+.swiper-pagination {
+    position:absolute !Important;
+    bottom:90px !Important;
+}
+
 @media only screen and (max-width: 766px) {
     .swiper-container {
         mask-image: none;
     }
+
   }
