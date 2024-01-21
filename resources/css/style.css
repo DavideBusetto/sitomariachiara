@@ -53,6 +53,20 @@
     background-position:100% center;
     background-repeat: no-repeat;
   }
+  .bg-portfolio-index {
+    background:url('/media/Header/Portfolio_Header.jpg');
+    background-size:cover;
+    background-position:100% center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-profile-pic {
+    background:url('/media/profile-pic.png');
+    background-position:100% top;
+    background-size:contain;
+    background-repeat: no-repeat;
+   
+  }
 
   
   @media only screen and (max-width: 766px) {
@@ -65,6 +79,12 @@
 
       .bg-article-index {
         background:url('/media/Header/Articoli_Header_Responsive.jpg');
+        background-size:cover;
+        background-position:100% center;
+        background-repeat: no-repeat;
+      }
+      .bg-portfolio-index {
+        background:url('/media/Header/Portfolio_Header_Responsive.jpg');
         background-size:cover;
         background-position:100% center;
         background-repeat: no-repeat;
