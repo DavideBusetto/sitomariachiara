@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    <div class="container-fluid my-5">
+    <div class="container-fluid my-5 mt-2">
         <div class="row">
             <div class="col-12 swiper-container">
                 <div class="swiper mySwiperClass">
