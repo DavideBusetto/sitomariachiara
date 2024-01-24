@@ -87,6 +87,13 @@
 
   }
 
+  .bg-easter-egg{
+    background:url('/media/Header/Easter_egg.png');
+    min-height:100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
   
   @media only screen and (max-width: 766px) {
     .container-video {
@@ -111,6 +118,10 @@
 
       .bg-contacts {
         background:url('/media/Header/Contatti_Header_Responsive.jpg');
+
+      }
+      .bg-easter-egg{
+        background:url('/media/Header/Easter_egg_responsive.png');
 
       }
     
