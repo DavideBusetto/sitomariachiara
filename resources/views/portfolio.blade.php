@@ -42,6 +42,10 @@ figcaption {
             <div class="row h-100 align-items-center">
               <div class="col-12">
                 <h1 class="fw-bold">Portfolio</h1>
+                <h5 clasas="fs-lead">Seguo le orme degli abiti del passato, <br> 
+                  studiando il loro linguaggio e cercando di trascrivere, <br> 
+                  il più fedelmente possibile, tutte le storie che hanno da raccontare. 
+                </h5>
                 <div class="border-custom-big"></div>
               </div>
             </div>
@@ -52,15 +56,42 @@ figcaption {
     <div class="container-fluid bg-profile-pic min-vh-100 border-bottom-dashed">
         <div class="container">
             <div class="row py-3">
-                <div class="col-12 col-md-8">
+                <div class="col-12 lead">
                     <h1 class="pt-3">Chi sono</h1>
                     <div class="border-custom-big mb-3"></div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nesciunt qui mollitia vitae quo, numquam iure eveniet autem possimus, fugiat magnam earum nihil consectetur nobis. Accusantium provident nulla autem! Facere.
-                    Eius modi ad labore dolore ea eum! Ratione velit eaque molestias? Doloribus quisquam vel molestias corrupti fugiat, quam dolor mollitia hic aliquam, tenetur laboriosam officia ea sed voluptatum, accusantium quos.
-                    Temporibus sint velit impedit, commodi autem qui ipsam blanditiis harum voluptatum quibusdam fugiat enim mollitia laboriosam neque, officiis cumque quasi sunt est aliquid eos voluptate. Deleniti delectus exercitationem animi hic.
-                    Optio, nam nulla maiores incidunt, dicta sint atque fuga neque itaque voluptatum placeat aut, voluptates deserunt soluta nihil at ipsam cum corrupti officiis impedit earum? At error excepturi fuga deserunt?
-                    Sequi mollitia dignissimos corporis adipisci placeat, pariatur voluptates? Libero dolorem ut, sint fugit quod necessitatibus quas magni dicta, ratione aspernatur commodi ipsa fuga aliquid doloribus harum maxime id modi velit?
-                    Odit labore dolorem repellendus incidunt repudiandae tempore?</p>
+                    <p class="mb-0">Ciao! Piacere di conoscerti!</p>
+                    <p class="mb-0">Ho una storia da raccontarti: non preoccuparti, sarò breve perché oggi la vita è frenetica e nessuno ha più tempo per le storie.</p>
+                    <p class="mb-0">Devi sapere però che ciò che mi appassiona ha una concezione del tempo diversa e ci invita continuamente alla riflessione e soprattutto alla cura dei dettagli: mi occupo di storia del costume e potrebbe sorprenderti il fatto che i vestiti e gli oggetti che oggi si producono facilmente e sono alla portata tutti, qualche secolo fa, richiedevano un enorme dispendio di varie risorse e soprattutto di tempo.
+                    </p>
+                    <p class="mb-0">Sappi che questa disciplina in Italia non esiste: non c’è una laurea specifica in Storia del Costume ma solo esami singoli. 
+                    </p>
+                    <p class="mb-0">Non mi sono mai lasciata intimorire da questo mancato riconoscimento istituzionale che purtroppo ammanta ancora la maggior parte delle arti minori e proprio per rafforzare la voce di questa branca di studi questo è il percorso che ho scelto per diventare storica del costume: laurea triennale in Design e Discipline della Moda nel 2013, Specialistica in Scenografia all’Accademia di Belle Arti di Urbino nel 2017, continui corsi extrauniversitari inerenti il costume teatrale, numerose esperienze lavorative nel medesimo settore ed infine iscrizione, a settembre 2022, alla Magistrale di Storia dell’Arte di Urbino, percorso tuttora in svolgimento. </p>
+                    <p class="mb-0"> La storia ha un grande superpotere: permea la realtà di nuove prospettive, la arricchisce e restituisce al tempo il suo vero valore. 
+                    </p>
+                    <p class="mb-0">Ho cercato di rendere ancora più tangibile questa convinzione accogliendo e partecipando ad attività che rispecchiassero le mie passioni: così da Giugno 2023 sono entrata a far parte del gruppo di rievocazione storica chiamato Corpo di Guardia di Gradara mentre da Settembre dello stesso anno mi sono iscritta alla scuola di scherma storica Achille Marozzo di Misano.
+                      Infine da Gennaio 2024 ho aperto attività come designer.
+                    </p>
+                    <p class="mb-0"> Grazie per aver ascoltato la mia storia: ne ho molte altre da raccontarti sugli abiti del passato e le troverai tutte su questo sito insieme ad articoli blog, foto e materiale scaricabile.
+                    </p>
+                    <p class="mb-0"> Le passioni crescono se sono condivise: contattami pure per ogni informazione, sarò felice di risponderti quanto prima. 
+                    </p>
+                    <p class="mb-0">  Allora a presto e prima di quel momento, ti auguro di combattere con orgoglio per la tua battaglia, qualunque essa sia.
+                    </p>
+                    <ul class="" style="padding-left:0;">
+                      <li><b class="fw-bold">Di cosa mi occupo:</b> Mi occupo di divulgazione nel campo della storia del costume: per raggiungere il mio obiettivo nel migliore dei modi mi servo soprattutto del disegno in qualità di designer. <br>
+                        Sono disponibile per corsi di formazione pratici nel campo della sartoria storica e per progetti di illustrazione. Visita la sezione portfolio e download per ulteriori informazioni. </li>
+                        <li><b class="fw-bold">Di cosa non mi occupo:</b> NON realizzo abiti su misura: non sono un artigiano né un laboratorio di produzione ma un designer. </li>
+                    </ul>
+                      
+                      
+                      
+                      
+                     
+                      
+                     
+                     
+                    
+                      </p>
                 </div>
         
             </div>

@@ -61,9 +61,9 @@
   }
 
   .bg-profile-pic {
-    background:url('/media/profile-pic.png');
+    background:linear-gradient(to right, rgba(255,255,255, 0.9), rgba(255,255,255, 0.5)), url('/media/Header/chi_sono.jpg');
     background-position:100% top;
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
    
   }
@@ -123,6 +123,12 @@
       .bg-easter-egg{
         background:url('/media/Header/Easter_egg_responsive.png');
 
+      }
+
+      .bg-profile-pic {
+        background:url('/media/Header/chi_sono_responsive.jpg');
+      
+       
       }
     
     
