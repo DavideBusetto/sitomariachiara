@@ -126,7 +126,7 @@
       }
 
       .bg-profile-pic {
-        background:url('/media/Header/chi_sono_responsive.jpg');
+        background:linear-gradient(to right, rgba(255,255,255, 0.9), rgba(255,255,255, 0.5)), url('/media/Header/chi_sono_responsive.jpg');
       
        
       }
