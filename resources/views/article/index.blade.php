@@ -11,5 +11,7 @@
 
         </div>
     </header>
+    @if($articles)
     <livewire:articles-container />
+    @endif
 </x-layout>
